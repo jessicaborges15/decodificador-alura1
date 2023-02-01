@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale+1.0">
+	<title> Codificador e Decodificador </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="imagens/astro.jpg,saturno.jpg" type="image/x-icon">
+
+</head>
+<body>
+	<main class="main container">
+		<header class="cabecalho">
+		<img src="saturno.jpg" alt="logo1">
+			<h1>Mensagens Codificadas</h1>
+		</header>
+
+		<div class="container-input">
+			<div class="input">
+				<textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+				<p> ATENÇÃO APENAS LETRAS MAIÚSCULAS E SEM ACENTO</p>
+				
+			</div>
+			<div id="output">
+				<img src="astro.jpg" alt="logo2" height="330px" width="400px">
+				<h2>Sua mensagem aparecerá aqui!
+				</h2>
+				<span>Digite o texto que deseja criptografar ou descriptografar</span>
+			</div>
+			</div>
+			<div class="buttons">
+				<div class="container-bnt">
+					<button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>>
+					
+				</div>
+			
+		</div>
+
+	</main>
+
+
+
+<footer class="rodape">
+	<div class="icons"> 
+		 <a href="https://github.com/JessicaBorges15"><ion-icon name="logo-github"></ion-icon></a>
+	</div>
+	<h3>Desenvolvido por Jéssica Borges</h3>
+</footer>
+
+	<script src="script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
